@@ -1,0 +1,18 @@
+cloudToWebs:
+    intervalLength: 0.01  # Downsampling size during preprocessing, no downsampling when set to - 1
+    RunMainPointSizeThre: 30000  # Whether to show the intermediate processing process
+    octreeRemoveSize: 3
+    octreeSavePointSize: 100
+    octreeSize: 0.05
+
+    centroidNearRetainThre: 0.95
+    peak_len: 1.5 # 1m之内只能有一个peak
+    avg_len: 10.0 # 求1m区间内的密度平均值
+    peak_judge_thre: 5 # 密度 > thre * 密度平均值的区间认为是peak所在区间
+
+    ifFilterShape: false # 是否按照形状进行filter, 以去除外部环境的噪声
+    ifCorrectMapCloudPitch: false
+    YShapePositive: 20.0 # 长轴长度
+    YShapeNegative: 0.0 # 长轴长度
+    densityMatchX_thre: 1.5
+    ifUseXMaxMin: true

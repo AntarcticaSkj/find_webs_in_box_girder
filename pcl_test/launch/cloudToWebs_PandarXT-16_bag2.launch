@@ -1,0 +1,8 @@
+<launch>
+
+    <rosparam command="load" file="$(find pcl_test)/config/PandarXT-16_bag2.yaml" />
+
+    <node pkg="pcl_test" type="cloudToWebs" name="cloudToWebs" output="screen" /> 
+    <node launch-prefix="nice" pkg="rviz" type="rviz" name="rviz" args="-d $(find pcl_test)/rviz_config/show.rviz" />
+
+</launch>
