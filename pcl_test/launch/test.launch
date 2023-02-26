@@ -1,0 +1,10 @@
+<launch>
+
+    <arg name="rviz" default="true" />
+
+    <rosparam command="load" file="$(find pcl_test)/config/pcl_test.yaml" />
+
+    <node pkg="pcl_test" type="process_sim_xiangliang_ra" name="process_sim_xiangliang_ra" output="screen" /> 
+
+
+</launch>

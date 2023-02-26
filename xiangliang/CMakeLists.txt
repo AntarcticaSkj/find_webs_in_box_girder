@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(xiangliang)
+
+find_package(catkin REQUIRED)
+
+catkin_package()
+
+find_package(roslaunch)
+
+install(DIRECTORY config DESTINATION $(CATKIN_PACKAGE_SHARE_DESTINATION))
+install(DIRECTORY launch DESTINATION $(CATKIN_PACKAGE_SHARE_DESTINATION))
+install(DIRECTORY mesh DESTINATION $(CATKIN_PACKAGE_SHARE_DESTINATION))
+install(DIRECTORY urdf DESTINATION $(CATKIN_PACKAGE_SHARE_DESTINATION))
+

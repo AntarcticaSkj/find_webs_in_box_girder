@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<launch>
+
+<include file="$(find gazebo_ros)/launch/empty_world.launch">
+  <arg name="world_name" value="$(find xiangliang)/worlds/xiangliang.world"/>
+  <arg name="debug" value="true"/>
+  <arg name="gui" value="true" />
+  <arg name="verbose" value="false"/>
+</include>
+
+  <param name="xiangliang_description" command="cat $(find xiangliang)/urdf/xiangliang.urdf"/>
+  
+  <!--node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" output="screen" args="-urdf -param xiangliang_description -model dam" /-->
+
+
+</launch>

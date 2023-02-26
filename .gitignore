@@ -1,0 +1,8 @@
+*/*.PCD
+*/*.pcd
+*/output/*
+./CMakeLists.txt
+FAST-LIO/PCD
+FAST-LIO/LOG
+*/*.png
+*/*.jpg
