@@ -1,9 +1,9 @@
 */*.PCD
 */*.pcd
 */output/*
-./CMakeLists.txt
+CMakeLists.txt
 FAST-LIO/PCD/*.pcd
 FAST-LIO/PCD/map_loading/*.pcd
-FAST-LIO/LOG
+FAST-LIO/Log/*
 */*.png
 */*.jpg
