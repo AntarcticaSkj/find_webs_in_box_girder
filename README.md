@@ -54,7 +54,6 @@ roslaunch fast_lio mapping_velodyne_xiangliang_sim.launch
 hesai PandarXT-16 线激光
 ```
 roslaunch fast_lio mapping_hesai_bag2.launch 
-
 ```
 
 ### 特征提取
