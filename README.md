@@ -1,7 +1,7 @@
 # find_welding_workspace
 - 更新了中文说明
 
-
+- TODO：将在论文发表后开源数据集
 - TODO: 代码优化：去除无用 & 测试代码
 
 ## 仓库说明
