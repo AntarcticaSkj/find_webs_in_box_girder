@@ -15,12 +15,10 @@
 仿真机器人使用开源项目[ROS-Academy-for-Beginners git]，上面搭载Velodyne-16线激光
 
 但仿真环境的搭建不是必须的，我们为使用者提供了数据集。若您不想搭建仿真环境，无需编译robot_sim_demo, xiangliang, yocs_cmd_vel这三个包。
-### 里程计
+
 本算法的改良里程计基于FAST-LIO2，因此需要使用者配置FAST-LIO2的环境
 [fast-lio2 git]
 
-### 特征提取
-直接在工作目录下编译即可。
 
 ```
 catkin_make
